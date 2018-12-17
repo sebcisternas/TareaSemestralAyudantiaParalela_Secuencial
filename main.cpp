@@ -86,6 +86,8 @@ int main()
 {
     ifstream nod("espiral.node", ifstream::in);
     ifstream mall("espiral.mesh",ifstream::in);
+    cout<<"------ Tarea Semestral Paralela - Secuencial ----"<<endl<<endl;
+    cout<<"                Refinamiento de Triangulos       "<<endl<<endl;
     cout<<"Ingresar angulo:"<<endl;
     cin>>ang;
     do
